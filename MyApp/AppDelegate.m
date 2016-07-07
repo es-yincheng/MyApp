@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "YCTabBarController.h"
+#import "YC3DTouch.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    _window.rootViewController = [[YCTabBarController alloc] init];
+    [YC3DTouch setHomeScreenQuickActionWithOptions:launchOptions];
+    
     return YES;
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler{
+
+    [YC3DTouch excuteActionWithItem:shortcutItem];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

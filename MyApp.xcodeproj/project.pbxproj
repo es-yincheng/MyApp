@@ -16,6 +16,33 @@
 		583EBD641D2CE3AF00CD25A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583EBD621D2CE3AF00CD25A3 /* LaunchScreen.storyboard */; };
 		583EBD6F1D2CE3AF00CD25A3 /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EBD6E1D2CE3AF00CD25A3 /* MyAppTests.m */; };
 		583EBD7A1D2CE3AF00CD25A3 /* MyAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EBD791D2CE3AF00CD25A3 /* MyAppUITests.m */; };
+		583EBD991D2CFFD100CD25A3 /* YC3DTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EBD951D2CFFD100CD25A3 /* YC3DTouch.m */; };
+		583EBD9A1D2CFFD100CD25A3 /* YCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EBD971D2CFFD100CD25A3 /* YCTabBarController.m */; };
+		583EBD9E1D2D000E00CD25A3 /* QRcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EBD9C1D2D000E00CD25A3 /* QRcodeViewController.m */; };
+		583EBDA81D2D0C5700CD25A3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583EBDA61D2D0C5700CD25A3 /* HomeViewController.m */; };
+		583EBDA91D2D0C5700CD25A3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 583EBDA71D2D0C5700CD25A3 /* HomeViewController.xib */; };
+		58A0CA1F1D2DE792007F0F98 /* YCSafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA1D1D2DE792007F0F98 /* YCSafeValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58A0CA591D2E20BB007F0F98 /* NSArray+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA2C1D2E20BB007F0F98 /* NSArray+Custom.m */; };
+		58A0CA5A1D2E20BB007F0F98 /* NSMutableArray+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA2E1D2E20BB007F0F98 /* NSMutableArray+Custom.m */; };
+		58A0CA5B1D2E20BB007F0F98 /* NSDictionary+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA311D2E20BB007F0F98 /* NSDictionary+Custom.m */; };
+		58A0CA5C1D2E20BB007F0F98 /* NSMutableDictionary+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA331D2E20BB007F0F98 /* NSMutableDictionary+Custom.m */; };
+		58A0CA5D1D2E20BB007F0F98 /* NSObject+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA361D2E20BB007F0F98 /* NSObject+Custom.m */; };
+		58A0CA5E1D2E20BB007F0F98 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA391D2E20BB007F0F98 /* NSString+Custom.m */; };
+		58A0CA5F1D2E20BB007F0F98 /* UIButton+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA3C1D2E20BB007F0F98 /* UIButton+Custom.m */; };
+		58A0CA601D2E20BB007F0F98 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA3F1D2E20BB007F0F98 /* UIColor+Random.m */; };
+		58A0CA611D2E20BB007F0F98 /* UIFont+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA421D2E20BB007F0F98 /* UIFont+Custom.m */; };
+		58A0CA621D2E20BB007F0F98 /* UIImage+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA451D2E20BB007F0F98 /* UIImage+Random.m */; };
+		58A0CA631D2E20BB007F0F98 /* UIImageView+SelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA471D2E20BB007F0F98 /* UIImageView+SelectPhoto.m */; };
+		58A0CA641D2E20BB007F0F98 /* UIImageView+SetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA491D2E20BB007F0F98 /* UIImageView+SetImage.m */; };
+		58A0CA651D2E20BB007F0F98 /* UILabel+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA4C1D2E20BB007F0F98 /* UILabel+Custom.m */; };
+		58A0CA661D2E20BB007F0F98 /* UIPickerView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA4F1D2E20BB007F0F98 /* UIPickerView+Custom.m */; };
+		58A0CA671D2E20BB007F0F98 /* UITextField+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA521D2E20BB007F0F98 /* UITextField+Custom.m */; };
+		58A0CA681D2E20BB007F0F98 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA551D2E20BB007F0F98 /* UIView+Custom.m */; };
+		58A0CA691D2E20BB007F0F98 /* UIViewController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA581D2E20BB007F0F98 /* UIViewController+Custom.m */; };
+		58A0CA721D2E2FC4007F0F98 /* QRStringShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA701D2E2FC4007F0F98 /* QRStringShowController.m */; };
+		58A0CA731D2E2FC4007F0F98 /* QRStringShowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A0CA711D2E2FC4007F0F98 /* QRStringShowController.xib */; };
+		58A0CA791D2E5598007F0F98 /* YCLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA781D2E5598007F0F98 /* YCLable.m */; };
+		58A0CA7C1D2E69C4007F0F98 /* MyQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA7B1D2E69C4007F0F98 /* MyQRController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +80,62 @@
 		583EBD751D2CE3AF00CD25A3 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		583EBD791D2CE3AF00CD25A3 /* MyAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppUITests.m; sourceTree = "<group>"; };
 		583EBD7B1D2CE3AF00CD25A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583EBD941D2CFFD100CD25A3 /* YC3DTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YC3DTouch.h; sourceTree = "<group>"; };
+		583EBD951D2CFFD100CD25A3 /* YC3DTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YC3DTouch.m; sourceTree = "<group>"; };
+		583EBD961D2CFFD100CD25A3 /* YCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCTabBarController.h; sourceTree = "<group>"; };
+		583EBD971D2CFFD100CD25A3 /* YCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCTabBarController.m; sourceTree = "<group>"; };
+		583EBD9B1D2D000E00CD25A3 /* QRcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRcodeViewController.h; sourceTree = "<group>"; };
+		583EBD9C1D2D000E00CD25A3 /* QRcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRcodeViewController.m; sourceTree = "<group>"; };
+		583EBDA51D2D0C5700CD25A3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		583EBDA61D2D0C5700CD25A3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		583EBDA71D2D0C5700CD25A3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		58A0CA1D1D2DE792007F0F98 /* YCSafeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCSafeValue.m; sourceTree = "<group>"; };
+		58A0CA201D2DE7D5007F0F98 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		58A0CA211D2DEC33007F0F98 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		58A0CA221D2DEE2D007F0F98 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		58A0CA291D2E20BB007F0F98 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		58A0CA2B1D2E20BB007F0F98 /* NSArray+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Custom.h"; sourceTree = "<group>"; };
+		58A0CA2C1D2E20BB007F0F98 /* NSArray+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Custom.m"; sourceTree = "<group>"; };
+		58A0CA2D1D2E20BB007F0F98 /* NSMutableArray+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Custom.h"; sourceTree = "<group>"; };
+		58A0CA2E1D2E20BB007F0F98 /* NSMutableArray+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Custom.m"; sourceTree = "<group>"; };
+		58A0CA301D2E20BB007F0F98 /* NSDictionary+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Custom.h"; sourceTree = "<group>"; };
+		58A0CA311D2E20BB007F0F98 /* NSDictionary+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Custom.m"; sourceTree = "<group>"; };
+		58A0CA321D2E20BB007F0F98 /* NSMutableDictionary+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Custom.h"; sourceTree = "<group>"; };
+		58A0CA331D2E20BB007F0F98 /* NSMutableDictionary+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Custom.m"; sourceTree = "<group>"; };
+		58A0CA351D2E20BB007F0F98 /* NSObject+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Custom.h"; sourceTree = "<group>"; };
+		58A0CA361D2E20BB007F0F98 /* NSObject+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Custom.m"; sourceTree = "<group>"; };
+		58A0CA381D2E20BB007F0F98 /* NSString+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
+		58A0CA391D2E20BB007F0F98 /* NSString+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
+		58A0CA3B1D2E20BB007F0F98 /* UIButton+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Custom.h"; sourceTree = "<group>"; };
+		58A0CA3C1D2E20BB007F0F98 /* UIButton+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Custom.m"; sourceTree = "<group>"; };
+		58A0CA3E1D2E20BB007F0F98 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		58A0CA3F1D2E20BB007F0F98 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		58A0CA411D2E20BB007F0F98 /* UIFont+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Custom.h"; sourceTree = "<group>"; };
+		58A0CA421D2E20BB007F0F98 /* UIFont+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Custom.m"; sourceTree = "<group>"; };
+		58A0CA441D2E20BB007F0F98 /* UIImage+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Random.h"; sourceTree = "<group>"; };
+		58A0CA451D2E20BB007F0F98 /* UIImage+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Random.m"; sourceTree = "<group>"; };
+		58A0CA461D2E20BB007F0F98 /* UIImageView+SelectPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SelectPhoto.h"; sourceTree = "<group>"; };
+		58A0CA471D2E20BB007F0F98 /* UIImageView+SelectPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SelectPhoto.m"; sourceTree = "<group>"; };
+		58A0CA481D2E20BB007F0F98 /* UIImageView+SetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SetImage.h"; sourceTree = "<group>"; };
+		58A0CA491D2E20BB007F0F98 /* UIImageView+SetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SetImage.m"; sourceTree = "<group>"; };
+		58A0CA4B1D2E20BB007F0F98 /* UILabel+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Custom.h"; sourceTree = "<group>"; };
+		58A0CA4C1D2E20BB007F0F98 /* UILabel+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Custom.m"; sourceTree = "<group>"; };
+		58A0CA4E1D2E20BB007F0F98 /* UIPickerView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Custom.h"; sourceTree = "<group>"; };
+		58A0CA4F1D2E20BB007F0F98 /* UIPickerView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Custom.m"; sourceTree = "<group>"; };
+		58A0CA511D2E20BB007F0F98 /* UITextField+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Custom.h"; sourceTree = "<group>"; };
+		58A0CA521D2E20BB007F0F98 /* UITextField+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Custom.m"; sourceTree = "<group>"; };
+		58A0CA541D2E20BB007F0F98 /* UIView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		58A0CA551D2E20BB007F0F98 /* UIView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		58A0CA571D2E20BB007F0F98 /* UIViewController+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Custom.h"; sourceTree = "<group>"; };
+		58A0CA581D2E20BB007F0F98 /* UIViewController+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Custom.m"; sourceTree = "<group>"; };
+		58A0CA6F1D2E2FC4007F0F98 /* QRStringShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRStringShowController.h; sourceTree = "<group>"; };
+		58A0CA701D2E2FC4007F0F98 /* QRStringShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRStringShowController.m; sourceTree = "<group>"; };
+		58A0CA711D2E2FC4007F0F98 /* QRStringShowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRStringShowController.xib; sourceTree = "<group>"; };
+		58A0CA761D2E557F007F0F98 /* YCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCKit.h; sourceTree = "<group>"; };
+		58A0CA771D2E5598007F0F98 /* YCLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLable.h; sourceTree = "<group>"; };
+		58A0CA781D2E5598007F0F98 /* YCLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLable.m; sourceTree = "<group>"; };
+		58A0CA7A1D2E69C4007F0F98 /* MyQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQRController.h; sourceTree = "<group>"; };
+		58A0CA7B1D2E69C4007F0F98 /* MyQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQRController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +186,8 @@
 		583EBD501D2CE3AF00CD25A3 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				583EBD871D2CE42700CD25A3 /* Classes */,
+				583EBD891D2CE42700CD25A3 /* Resource */,
 				583EBD541D2CE3AF00CD25A3 /* AppDelegate.h */,
 				583EBD551D2CE3AF00CD25A3 /* AppDelegate.m */,
 				583EBD571D2CE3AF00CD25A3 /* ViewController.h */,
@@ -121,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				583EBD521D2CE3AF00CD25A3 /* main.m */,
+				58A0CA221D2DEE2D007F0F98 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +227,235 @@
 				583EBD7B1D2CE3AF00CD25A3 /* Info.plist */,
 			);
 			path = MyAppUITests;
+			sourceTree = "<group>";
+		};
+		583EBD871D2CE42700CD25A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				583EBD921D2CFFD100CD25A3 /* Common */,
+				583EBDA51D2D0C5700CD25A3 /* HomeViewController.h */,
+				583EBDA61D2D0C5700CD25A3 /* HomeViewController.m */,
+				583EBDA71D2D0C5700CD25A3 /* HomeViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		583EBD891D2CE42700CD25A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		583EBD921D2CFFD100CD25A3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA741D2E5565007F0F98 /* UIKit */,
+				58A0CA281D2E20BB007F0F98 /* Category */,
+				58A0CA1B1D2DE792007F0F98 /* Runtime */,
+				583EBD931D2CFFD100CD25A3 /* Base */,
+				583EBD981D2CFFD100CD25A3 /* QRcode */,
+				58A0CA201D2DE7D5007F0F98 /* Common.h */,
+				58A0CA211D2DEC33007F0F98 /* Macros.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		583EBD931D2CFFD100CD25A3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				583EBD941D2CFFD100CD25A3 /* YC3DTouch.h */,
+				583EBD951D2CFFD100CD25A3 /* YC3DTouch.m */,
+				583EBD961D2CFFD100CD25A3 /* YCTabBarController.h */,
+				583EBD971D2CFFD100CD25A3 /* YCTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		583EBD981D2CFFD100CD25A3 /* QRcode */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA7A1D2E69C4007F0F98 /* MyQRController.h */,
+				58A0CA7B1D2E69C4007F0F98 /* MyQRController.m */,
+				583EBD9B1D2D000E00CD25A3 /* QRcodeViewController.h */,
+				583EBD9C1D2D000E00CD25A3 /* QRcodeViewController.m */,
+				58A0CA6F1D2E2FC4007F0F98 /* QRStringShowController.h */,
+				58A0CA701D2E2FC4007F0F98 /* QRStringShowController.m */,
+				58A0CA711D2E2FC4007F0F98 /* QRStringShowController.xib */,
+			);
+			path = QRcode;
+			sourceTree = "<group>";
+		};
+		58A0CA1B1D2DE792007F0F98 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA1D1D2DE792007F0F98 /* YCSafeValue.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		58A0CA281D2E20BB007F0F98 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA291D2E20BB007F0F98 /* Category.h */,
+				58A0CA2A1D2E20BB007F0F98 /* NSArray */,
+				58A0CA2F1D2E20BB007F0F98 /* NSDictionary */,
+				58A0CA341D2E20BB007F0F98 /* NSObject */,
+				58A0CA371D2E20BB007F0F98 /* NSString */,
+				58A0CA3A1D2E20BB007F0F98 /* UIButton */,
+				58A0CA3D1D2E20BB007F0F98 /* UIColor */,
+				58A0CA401D2E20BB007F0F98 /* UIFont */,
+				58A0CA431D2E20BB007F0F98 /* UIImageView */,
+				58A0CA4A1D2E20BB007F0F98 /* UILable */,
+				58A0CA4D1D2E20BB007F0F98 /* UIPickerView */,
+				58A0CA501D2E20BB007F0F98 /* UITextField */,
+				58A0CA531D2E20BB007F0F98 /* UIView */,
+				58A0CA561D2E20BB007F0F98 /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		58A0CA2A1D2E20BB007F0F98 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA2B1D2E20BB007F0F98 /* NSArray+Custom.h */,
+				58A0CA2C1D2E20BB007F0F98 /* NSArray+Custom.m */,
+				58A0CA2D1D2E20BB007F0F98 /* NSMutableArray+Custom.h */,
+				58A0CA2E1D2E20BB007F0F98 /* NSMutableArray+Custom.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		58A0CA2F1D2E20BB007F0F98 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA301D2E20BB007F0F98 /* NSDictionary+Custom.h */,
+				58A0CA311D2E20BB007F0F98 /* NSDictionary+Custom.m */,
+				58A0CA321D2E20BB007F0F98 /* NSMutableDictionary+Custom.h */,
+				58A0CA331D2E20BB007F0F98 /* NSMutableDictionary+Custom.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		58A0CA341D2E20BB007F0F98 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA351D2E20BB007F0F98 /* NSObject+Custom.h */,
+				58A0CA361D2E20BB007F0F98 /* NSObject+Custom.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		58A0CA371D2E20BB007F0F98 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA381D2E20BB007F0F98 /* NSString+Custom.h */,
+				58A0CA391D2E20BB007F0F98 /* NSString+Custom.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		58A0CA3A1D2E20BB007F0F98 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA3B1D2E20BB007F0F98 /* UIButton+Custom.h */,
+				58A0CA3C1D2E20BB007F0F98 /* UIButton+Custom.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		58A0CA3D1D2E20BB007F0F98 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA3E1D2E20BB007F0F98 /* UIColor+Random.h */,
+				58A0CA3F1D2E20BB007F0F98 /* UIColor+Random.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		58A0CA401D2E20BB007F0F98 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA411D2E20BB007F0F98 /* UIFont+Custom.h */,
+				58A0CA421D2E20BB007F0F98 /* UIFont+Custom.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		58A0CA431D2E20BB007F0F98 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA441D2E20BB007F0F98 /* UIImage+Random.h */,
+				58A0CA451D2E20BB007F0F98 /* UIImage+Random.m */,
+				58A0CA461D2E20BB007F0F98 /* UIImageView+SelectPhoto.h */,
+				58A0CA471D2E20BB007F0F98 /* UIImageView+SelectPhoto.m */,
+				58A0CA481D2E20BB007F0F98 /* UIImageView+SetImage.h */,
+				58A0CA491D2E20BB007F0F98 /* UIImageView+SetImage.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		58A0CA4A1D2E20BB007F0F98 /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA4B1D2E20BB007F0F98 /* UILabel+Custom.h */,
+				58A0CA4C1D2E20BB007F0F98 /* UILabel+Custom.m */,
+			);
+			path = UILable;
+			sourceTree = "<group>";
+		};
+		58A0CA4D1D2E20BB007F0F98 /* UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA4E1D2E20BB007F0F98 /* UIPickerView+Custom.h */,
+				58A0CA4F1D2E20BB007F0F98 /* UIPickerView+Custom.m */,
+			);
+			path = UIPickerView;
+			sourceTree = "<group>";
+		};
+		58A0CA501D2E20BB007F0F98 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA511D2E20BB007F0F98 /* UITextField+Custom.h */,
+				58A0CA521D2E20BB007F0F98 /* UITextField+Custom.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		58A0CA531D2E20BB007F0F98 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA541D2E20BB007F0F98 /* UIView+Custom.h */,
+				58A0CA551D2E20BB007F0F98 /* UIView+Custom.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		58A0CA561D2E20BB007F0F98 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA571D2E20BB007F0F98 /* UIViewController+Custom.h */,
+				58A0CA581D2E20BB007F0F98 /* UIViewController+Custom.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		58A0CA741D2E5565007F0F98 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA751D2E5574007F0F98 /* UILable */,
+				58A0CA761D2E557F007F0F98 /* YCKit.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		58A0CA751D2E5574007F0F98 /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CA771D2E5598007F0F98 /* YCLable.h */,
+				58A0CA781D2E5598007F0F98 /* YCLable.m */,
+			);
+			path = UILable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +525,7 @@
 				TargetAttributes = {
 					583EBD4D1D2CE3AF00CD25A3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = WY5KMYK455;
+						DevelopmentTeam = 6EQ85GFREG;
 					};
 					583EBD691D2CE3AF00CD25A3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -251,7 +566,9 @@
 			files = (
 				583EBD641D2CE3AF00CD25A3 /* LaunchScreen.storyboard in Resources */,
 				583EBD611D2CE3AF00CD25A3 /* Assets.xcassets in Resources */,
+				58A0CA731D2E2FC4007F0F98 /* QRStringShowController.xib in Resources */,
 				583EBD5C1D2CE3AF00CD25A3 /* Main.storyboard in Resources */,
+				583EBDA91D2D0C5700CD25A3 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +594,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				583EBD591D2CE3AF00CD25A3 /* ViewController.m in Sources */,
+				58A0CA661D2E20BB007F0F98 /* UIPickerView+Custom.m in Sources */,
+				58A0CA611D2E20BB007F0F98 /* UIFont+Custom.m in Sources */,
+				58A0CA591D2E20BB007F0F98 /* NSArray+Custom.m in Sources */,
+				58A0CA1F1D2DE792007F0F98 /* YCSafeValue.m in Sources */,
 				583EBD5F1D2CE3AF00CD25A3 /* MyApp.xcdatamodeld in Sources */,
+				58A0CA791D2E5598007F0F98 /* YCLable.m in Sources */,
+				58A0CA5A1D2E20BB007F0F98 /* NSMutableArray+Custom.m in Sources */,
+				58A0CA651D2E20BB007F0F98 /* UILabel+Custom.m in Sources */,
+				58A0CA5C1D2E20BB007F0F98 /* NSMutableDictionary+Custom.m in Sources */,
 				583EBD561D2CE3AF00CD25A3 /* AppDelegate.m in Sources */,
+				58A0CA691D2E20BB007F0F98 /* UIViewController+Custom.m in Sources */,
+				58A0CA7C1D2E69C4007F0F98 /* MyQRController.m in Sources */,
+				583EBD9E1D2D000E00CD25A3 /* QRcodeViewController.m in Sources */,
+				583EBDA81D2D0C5700CD25A3 /* HomeViewController.m in Sources */,
+				58A0CA5D1D2E20BB007F0F98 /* NSObject+Custom.m in Sources */,
+				58A0CA641D2E20BB007F0F98 /* UIImageView+SetImage.m in Sources */,
+				583EBD9A1D2CFFD100CD25A3 /* YCTabBarController.m in Sources */,
+				58A0CA601D2E20BB007F0F98 /* UIColor+Random.m in Sources */,
+				58A0CA5E1D2E20BB007F0F98 /* NSString+Custom.m in Sources */,
+				58A0CA5F1D2E20BB007F0F98 /* UIButton+Custom.m in Sources */,
+				58A0CA5B1D2E20BB007F0F98 /* NSDictionary+Custom.m in Sources */,
+				583EBD991D2CFFD100CD25A3 /* YC3DTouch.m in Sources */,
+				58A0CA621D2E20BB007F0F98 /* UIImage+Random.m in Sources */,
 				583EBD531D2CE3AF00CD25A3 /* main.m in Sources */,
+				58A0CA671D2E20BB007F0F98 /* UITextField+Custom.m in Sources */,
+				58A0CA681D2E20BB007F0F98 /* UIView+Custom.m in Sources */,
+				58A0CA721D2E2FC4007F0F98 /* QRStringShowController.m in Sources */,
+				58A0CA631D2E20BB007F0F98 /* UIImageView+SelectPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,10 +764,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/PrefixHeader.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yc.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -433,10 +780,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/PrefixHeader.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yc.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -505,6 +857,7 @@
 				583EBD801D2CE3AF00CD25A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		583EBD811D2CE3AF00CD25A3 /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +866,7 @@
 				583EBD831D2CE3AF00CD25A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		583EBD841D2CE3AF00CD25A3 /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +875,7 @@
 				583EBD861D2CE3AF00CD25A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

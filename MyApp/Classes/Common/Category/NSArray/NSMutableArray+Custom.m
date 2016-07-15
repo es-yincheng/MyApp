@@ -14,4 +14,18 @@
     return (index < self.count ? [self objectAtIndex:index] : nil);
 }
 
+- (void)yc_addObjectsFromArray:(NSArray *)otherArray{
+    if (!otherArray) {
+        return;
+    }
+    [self addObjectsFromArray:otherArray];
+}
+
+- (void)yc_addObject:(id)anObject{
+
+    if (anObject) {
+        [self addObject:anObject];
+    }
+}
+
 @end

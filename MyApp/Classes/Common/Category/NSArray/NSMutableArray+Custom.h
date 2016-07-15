@@ -11,5 +11,7 @@
 @interface NSMutableArray (Custom)
 
 - (id)yc_objectAtIndex:(NSUInteger)index;
+- (void)yc_addObject:(id)anObject;
+- (void)yc_addObjectsFromArray:(NSArray *)otherArray;
 
 @end

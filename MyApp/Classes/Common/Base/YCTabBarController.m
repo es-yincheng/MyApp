@@ -8,8 +8,10 @@
 
 #import "YCTabBarController.h"
 #import "HomeViewController.h"
+#import "BaisiViewController.h"
 
 NSString *HomeTitle = @"首页";
+NSString *BaisiTitle = @"百思";
 
 @interface YCTabBarController ()
 
@@ -33,7 +35,12 @@ NSString *HomeTitle = @"首页";
         HomeViewController *homeViewController = [[HomeViewController alloc] init];
         UINavigationController *homeNavigationController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
         homeNavigationController.title = HomeTitle;
-        [self setViewControllers:@[homeNavigationController]];
+        
+        BaisiViewController *baisiVC = [[BaisiViewController alloc] init];
+        UINavigationController *baisiNV = [[UINavigationController alloc] initWithRootViewController:baisiVC];
+        baisiNV.title = BaisiTitle;
+        
+        [self setViewControllers:@[homeNavigationController,baisiNV]];
     }
     return self;
 }

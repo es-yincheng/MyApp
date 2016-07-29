@@ -10,7 +10,7 @@
 
 @interface BaisiService : BaseService
 
-- (void)getItemsFrom:(NSNumber *)startIndex
+- (void)getItemsFrom:(NSInteger)startIndex
                   to:(NSNumber *)endIndex
              success:(SuccessBlock)success
              failure:(FailureBlock)failure;

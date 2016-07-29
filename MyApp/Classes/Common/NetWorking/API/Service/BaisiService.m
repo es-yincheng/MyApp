@@ -11,13 +11,13 @@
 
 @implementation BaisiService
 
-- (void)getItemsFrom:(NSNumber *)startIndex
+- (void)getItemsFrom:(NSInteger)startIndex
                   to:(NSNumber *)endIndex
              success:(SuccessBlock)success
              failure:(FailureBlock)failure{
     
     
-    [[NetWorking sharedNetWorking] get:@"http://s.budejie.com/topic/list/jingxuan/10/baisi_xiaohao-iphone-4.1/0-20.json"
+    [[NetWorking sharedNetWorking] get:[NSString stringWithFormat:@"http://s.budejie.com/topic/list/jingxuan/10/baisi_xiaohao-iphone-4.1/%ld-20.json",(long)startIndex]
                             parameters:nil
                               progress:nil
                                success:success

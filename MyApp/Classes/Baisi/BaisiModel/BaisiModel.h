@@ -13,36 +13,43 @@
 
 @interface BaisiModel : BaseModel
 
+@property (nonatomic, copy) NSString *userIcon;
+@property (nonatomic, copy) NSString *userName;
+@property (nonatomic, copy) NSString *publishTime;
+@property (nonatomic, copy) NSString *baisiType;
+@property (nonatomic, copy) NSString *baisiText;
 /**
- *  评论
+ *  多媒体图片（根据类型可能是 图片，gif，video）
  */
-@property (nonatomic, copy) NSString *comment;
-@property (nonatomic, copy) NSString *bookmark;
-@property (nonatomic, copy) NSString *up;
-@property (nonatomic, copy) NSString *down;
-@property (nonatomic, copy) NSString *forward;
-@property (nonatomic, copy) NSString *text;
-@property (nonatomic, copy) NSString *share_url;
-@property (nonatomic, copy) NSString *type;
+@property (nonatomic, copy) NSString *baisiImageSmal;
+@property (nonatomic, copy) NSString *baisiImageBig;
+@property (nonatomic, assign) CGFloat imageHeight;
+@property (nonatomic, assign) CGFloat imageWidth;
+/**
+ *  多媒体下载地址
+ */
+@property (nonatomic, copy) NSString *baisiUrl;
 
-//@property (nonatomic, copy) NSString *authorName;
-//@property (nonatomic, copy) NSString *authorImage;
-@property (nonatomic, strong) UserModel *u;
-@property (nonatomic, copy) NSString *passtime;
+/**
+ *  播放次数，只有视频类型有
+ */
+@property (nonatomic, copy) NSString *bofangCount;
+/**
+ *  评论：蓝色评论人name 和 评论内容
+ */
+@property (nonatomic, copy) NSAttributedString *commentText;
+/**
+ *  视频时长，只有视频类型有
+ */
+@property (nonatomic, copy) NSString *bofangTime;
+@property (nonatomic, copy) NSString *baisiTags;
+@property (nonatomic, copy) NSString *zanCount;
+@property (nonatomic, copy) NSString *caiCount;
+@property (nonatomic, copy) NSString *shareCount;
+@property (nonatomic, copy) NSString *commentCount;
 
-@property (nonatomic, copy) NSString *zanName;
-@property (nonatomic, copy) NSString *zanImage;
-@property (nonatomic, copy) NSString *zanText;
+@property (nonatomic, copy) NSString *baisiShareUrl;
 
-@property (nonatomic, strong) ImageModel *imageModel;
-
-@property (nonatomic, copy) NSString *small;
-@property (nonatomic, copy) NSString *medium;
-@property (nonatomic, copy) NSString *big;
-@property (nonatomic, copy) NSString *download_url;
-@property (nonatomic, assign) NSInteger height;
-@property (nonatomic, assign) NSInteger width;
-
-@property (nonatomic, strong) NSArray *tags;
++ (NSInteger)yc_getLastIndex:(id)keyValues;
 
 @end

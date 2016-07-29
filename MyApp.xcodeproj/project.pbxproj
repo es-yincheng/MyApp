@@ -15,8 +15,6 @@
 		581981FF1D3887BF007BE7D3 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 581981FE1D3887BF007BE7D3 /* SimplePing.m */; };
 		581982041D38A9F9007BE7D3 /* BaisiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581982021D38A9F9007BE7D3 /* BaisiViewController.m */; };
 		581982051D38A9F9007BE7D3 /* BaisiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581982031D38A9F9007BE7D3 /* BaisiViewController.xib */; };
-		5819820A1D38AAB0007BE7D3 /* BaisiVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 581982081D38AAB0007BE7D3 /* BaisiVideoCell.m */; };
-		5819820B1D38AAB0007BE7D3 /* BaisiVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581982091D38AAB0007BE7D3 /* BaisiVideoCell.xib */; };
 		5819820F1D38AE97007BE7D3 /* BaisiImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819820D1D38AE97007BE7D3 /* BaisiImageCell.m */; };
 		581982101D38AE97007BE7D3 /* BaisiImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5819820E1D38AE97007BE7D3 /* BaisiImageCell.xib */; };
 		581982151D38BB22007BE7D3 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 581982141D38BB22007BE7D3 /* BaseModel.m */; };
@@ -67,6 +65,13 @@
 		58A0CA731D2E2FC4007F0F98 /* QRStringShowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A0CA711D2E2FC4007F0F98 /* QRStringShowController.xib */; };
 		58A0CA791D2E5598007F0F98 /* YCLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA781D2E5598007F0F98 /* YCLable.m */; };
 		58A0CA7C1D2E69C4007F0F98 /* MyQRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CA7B1D2E69C4007F0F98 /* MyQRController.m */; };
+		58B94ECD1D4B529500224CCF /* BaisiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B94ECB1D4B529500224CCF /* BaisiCell.m */; };
+		58B94ECE1D4B529500224CCF /* BaisiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B94ECC1D4B529500224CCF /* BaisiCell.xib */; };
+		58B94ED31D4B5B9900224CCF /* bdj_mj_refresh_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B94ED01D4B5B9900224CCF /* bdj_mj_refresh_1@2x.png */; };
+		58B94ED41D4B5B9900224CCF /* bdj_mj_refresh_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B94ED11D4B5B9900224CCF /* bdj_mj_refresh_2@2x.png */; };
+		58B94ED51D4B5B9900224CCF /* bdj_mj_refresh_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B94ED21D4B5B9900224CCF /* bdj_mj_refresh_3@2x.png */; };
+		58B94EDB1D4B5C2B00224CCF /* MJChiBaoZiHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B94ED81D4B5C2B00224CCF /* MJChiBaoZiHeader.m */; };
+		58B94EDC1D4B5C2B00224CCF /* MJDiyFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B94EDA1D4B5C2B00224CCF /* MJDiyFooter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,9 +105,6 @@
 		581982011D38A9F9007BE7D3 /* BaisiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaisiViewController.h; sourceTree = "<group>"; };
 		581982021D38A9F9007BE7D3 /* BaisiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaisiViewController.m; sourceTree = "<group>"; };
 		581982031D38A9F9007BE7D3 /* BaisiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaisiViewController.xib; sourceTree = "<group>"; };
-		581982071D38AAB0007BE7D3 /* BaisiVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaisiVideoCell.h; sourceTree = "<group>"; };
-		581982081D38AAB0007BE7D3 /* BaisiVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaisiVideoCell.m; sourceTree = "<group>"; };
-		581982091D38AAB0007BE7D3 /* BaisiVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaisiVideoCell.xib; sourceTree = "<group>"; };
 		5819820C1D38AE97007BE7D3 /* BaisiImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaisiImageCell.h; sourceTree = "<group>"; };
 		5819820D1D38AE97007BE7D3 /* BaisiImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaisiImageCell.m; sourceTree = "<group>"; };
 		5819820E1D38AE97007BE7D3 /* BaisiImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaisiImageCell.xib; sourceTree = "<group>"; };
@@ -202,6 +204,16 @@
 		58A0CA781D2E5598007F0F98 /* YCLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLable.m; sourceTree = "<group>"; };
 		58A0CA7A1D2E69C4007F0F98 /* MyQRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQRController.h; sourceTree = "<group>"; };
 		58A0CA7B1D2E69C4007F0F98 /* MyQRController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQRController.m; sourceTree = "<group>"; };
+		58B94ECA1D4B529500224CCF /* BaisiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaisiCell.h; sourceTree = "<group>"; };
+		58B94ECB1D4B529500224CCF /* BaisiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaisiCell.m; sourceTree = "<group>"; };
+		58B94ECC1D4B529500224CCF /* BaisiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaisiCell.xib; sourceTree = "<group>"; };
+		58B94ED01D4B5B9900224CCF /* bdj_mj_refresh_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bdj_mj_refresh_1@2x.png"; sourceTree = "<group>"; };
+		58B94ED11D4B5B9900224CCF /* bdj_mj_refresh_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bdj_mj_refresh_2@2x.png"; sourceTree = "<group>"; };
+		58B94ED21D4B5B9900224CCF /* bdj_mj_refresh_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bdj_mj_refresh_3@2x.png"; sourceTree = "<group>"; };
+		58B94ED71D4B5C2B00224CCF /* MJChiBaoZiHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJChiBaoZiHeader.h; sourceTree = "<group>"; };
+		58B94ED81D4B5C2B00224CCF /* MJChiBaoZiHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJChiBaoZiHeader.m; sourceTree = "<group>"; };
+		58B94ED91D4B5C2B00224CCF /* MJDiyFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDiyFooter.h; sourceTree = "<group>"; };
+		58B94EDA1D4B5C2B00224CCF /* MJDiyFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDiyFooter.m; sourceTree = "<group>"; };
 		ABA03258B7D8D833859DC7AF /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -277,12 +289,12 @@
 		581982061D38AA90007BE7D3 /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				581982071D38AAB0007BE7D3 /* BaisiVideoCell.h */,
-				581982081D38AAB0007BE7D3 /* BaisiVideoCell.m */,
-				581982091D38AAB0007BE7D3 /* BaisiVideoCell.xib */,
 				5819820C1D38AE97007BE7D3 /* BaisiImageCell.h */,
 				5819820D1D38AE97007BE7D3 /* BaisiImageCell.m */,
 				5819820E1D38AE97007BE7D3 /* BaisiImageCell.xib */,
+				58B94ECA1D4B529500224CCF /* BaisiCell.h */,
+				58B94ECB1D4B529500224CCF /* BaisiCell.m */,
+				58B94ECC1D4B529500224CCF /* BaisiCell.xib */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -445,6 +457,7 @@
 		583EBD891D2CE42700CD25A3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				58B94ECF1D4B5B8E00224CCF /* baisiReafrsh */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -452,6 +465,7 @@
 		583EBD921D2CFFD100CD25A3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				58B94ED61D4B5C2B00224CCF /* MJRefreshDiy */,
 				5819823A1D38CEBD007BE7D3 /* MBProgressHUD */,
 				581982221D38CB93007BE7D3 /* NetWorking */,
 				581982121D38BB12007BE7D3 /* Model */,
@@ -665,6 +679,27 @@
 			path = UILable;
 			sourceTree = "<group>";
 		};
+		58B94ECF1D4B5B8E00224CCF /* baisiReafrsh */ = {
+			isa = PBXGroup;
+			children = (
+				58B94ED01D4B5B9900224CCF /* bdj_mj_refresh_1@2x.png */,
+				58B94ED11D4B5B9900224CCF /* bdj_mj_refresh_2@2x.png */,
+				58B94ED21D4B5B9900224CCF /* bdj_mj_refresh_3@2x.png */,
+			);
+			path = baisiReafrsh;
+			sourceTree = "<group>";
+		};
+		58B94ED61D4B5C2B00224CCF /* MJRefreshDiy */ = {
+			isa = PBXGroup;
+			children = (
+				58B94ED71D4B5C2B00224CCF /* MJChiBaoZiHeader.h */,
+				58B94ED81D4B5C2B00224CCF /* MJChiBaoZiHeader.m */,
+				58B94ED91D4B5C2B00224CCF /* MJDiyFooter.h */,
+				58B94EDA1D4B5C2B00224CCF /* MJDiyFooter.m */,
+			);
+			path = MJRefreshDiy;
+			sourceTree = "<group>";
+		};
 		9857D8916AF5167DBEFF4A9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -792,15 +827,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				581981F51D388219007BE7D3 /* YCWiFiController.xib in Resources */,
+				58B94ED51D4B5B9900224CCF /* bdj_mj_refresh_3@2x.png in Resources */,
 				583EBD641D2CE3AF00CD25A3 /* LaunchScreen.storyboard in Resources */,
-				5819820B1D38AAB0007BE7D3 /* BaisiVideoCell.xib in Resources */,
+				58B94ECE1D4B529500224CCF /* BaisiCell.xib in Resources */,
 				583EBD611D2CE3AF00CD25A3 /* Assets.xcassets in Resources */,
 				58A0CA731D2E2FC4007F0F98 /* QRStringShowController.xib in Resources */,
+				58B94ED41D4B5B9900224CCF /* bdj_mj_refresh_2@2x.png in Resources */,
 				583EBD5C1D2CE3AF00CD25A3 /* Main.storyboard in Resources */,
 				581982051D38A9F9007BE7D3 /* BaisiViewController.xib in Resources */,
 				581982411D38CEBD007BE7D3 /* MBProgressHUD.bundle in Resources */,
 				583EBDA91D2D0C5700CD25A3 /* HomeViewController.xib in Resources */,
 				581982101D38AE97007BE7D3 /* BaisiImageCell.xib in Resources */,
+				58B94ED31D4B5B9900224CCF /* bdj_mj_refresh_1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -878,6 +916,7 @@
 				581982321D38CB93007BE7D3 /* BaseService.m in Sources */,
 				58A0CA661D2E20BB007F0F98 /* UIPickerView+Custom.m in Sources */,
 				58A0CA611D2E20BB007F0F98 /* UIFont+Custom.m in Sources */,
+				58B94ECD1D4B529500224CCF /* BaisiCell.m in Sources */,
 				5819821B1D38C34B007BE7D3 /* TagsModel.m in Sources */,
 				581982421D38CEBD007BE7D3 /* MBProgressHUD.m in Sources */,
 				58A0CA591D2E20BB007F0F98 /* NSArray+Custom.m in Sources */,
@@ -886,13 +925,13 @@
 				58A0CA1F1D2DE792007F0F98 /* YCSafeValue.m in Sources */,
 				583EBD5F1D2CE3AF00CD25A3 /* MyApp.xcdatamodeld in Sources */,
 				58A0CA791D2E5598007F0F98 /* YCLable.m in Sources */,
-				5819820A1D38AAB0007BE7D3 /* BaisiVideoCell.m in Sources */,
 				581982181D38BB64007BE7D3 /* BaisiModel.m in Sources */,
 				58A0CA5A1D2E20BB007F0F98 /* NSMutableArray+Custom.m in Sources */,
 				58A0CA651D2E20BB007F0F98 /* UILabel+Custom.m in Sources */,
 				58A0CA5C1D2E20BB007F0F98 /* NSMutableDictionary+Custom.m in Sources */,
 				581982391D38CC74007BE7D3 /* BaisiService.m in Sources */,
 				583EBD561D2CE3AF00CD25A3 /* AppDelegate.m in Sources */,
+				58B94EDC1D4B5C2B00224CCF /* MJDiyFooter.m in Sources */,
 				58A0CA691D2E20BB007F0F98 /* UIViewController+Custom.m in Sources */,
 				58A0CA7C1D2E69C4007F0F98 /* MyQRController.m in Sources */,
 				583EBD9E1D2D000E00CD25A3 /* QRcodeViewController.m in Sources */,
@@ -915,6 +954,7 @@
 				58A0CA671D2E20BB007F0F98 /* UITextField+Custom.m in Sources */,
 				5819821E1D38C521007BE7D3 /* ImageModel.m in Sources */,
 				581982041D38A9F9007BE7D3 /* BaisiViewController.m in Sources */,
+				58B94EDB1D4B5C2B00224CCF /* MJChiBaoZiHeader.m in Sources */,
 				58A0CA681D2E20BB007F0F98 /* UIView+Custom.m in Sources */,
 				58A0CA721D2E2FC4007F0F98 /* QRStringShowController.m in Sources */,
 				58A0CA631D2E20BB007F0F98 /* UIImageView+SelectPhoto.m in Sources */,

@@ -252,6 +252,8 @@
                 <outlet property="baisicaiButton" destination="6U3-es-iVR" id="RYi-sA-yv6"/>
                 <outlet property="commentInfo" destination="XhZ-nA-gFd" id="bpH-g0-L0M"/>
                 <outlet property="commentViewConstraint" destination="waQ-2U-P2E" id="kYe-Qd-Ux5"/>
+                <outlet property="hotCommentImage" destination="0VK-8Z-zab" id="tPk-FR-BEH"/>
+                <outlet property="hotCommentView" destination="BJQ-zE-0p6" id="7ZT-8j-td6"/>
                 <outlet property="imageHeight" destination="5dn-V0-IY8" id="q1z-kB-HEo"/>
                 <outlet property="publishTime" destination="tr0-eR-0d7" id="SMN-zL-fXx"/>
                 <outlet property="userIcon" destination="saP-2S-kQT" id="GA4-DY-TCE"/>

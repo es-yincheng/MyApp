@@ -14,6 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - FlatUIKit (1.6.2)
   - IQKeyboardManager (4.0.4)
   - Masonry (1.0.1)
   - MJExtension (3.0.11)
@@ -25,6 +29,8 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - ChameleonFramework
+  - FlatUIKit
   - IQKeyboardManager
   - Masonry
   - MJExtension
@@ -34,6 +40,8 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
   IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJExtension: f9ae6ddc0f1c482c3c9af750280ccebd14381958
@@ -41,6 +49,6 @@ SPEC CHECKSUMS:
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: e1add8112fd61571518e49bb0cddcfe0a54cab2a
+PODFILE CHECKSUM: b418a594b243feeceabc1d3970fec9f059219de4
 
 COCOAPODS: 1.0.1

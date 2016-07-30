@@ -15,8 +15,7 @@
                   to:(NSNumber *)endIndex
              success:(SuccessBlock)success
              failure:(FailureBlock)failure{
-    
-    
+    NSLog(@"url:%@",[NSString stringWithFormat:@"http://s.budejie.com/topic/list/jingxuan/10/baisi_xiaohao-iphone-4.1/%ld-20.json",(long)startIndex]);
     [[NetWorking sharedNetWorking] get:[NSString stringWithFormat:@"http://s.budejie.com/topic/list/jingxuan/10/baisi_xiaohao-iphone-4.1/%ld-20.json",(long)startIndex]
                             parameters:nil
                               progress:nil

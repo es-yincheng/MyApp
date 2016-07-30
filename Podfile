@@ -20,4 +20,9 @@ pod 'MJExtension'
 
 #pod 'UMengSocialCOM', '~> 5.2.1'
 
+#扁平化
+pod 'FlatUIKit'
+use_frameworks!
+pod 'ChameleonFramework'
+
 end

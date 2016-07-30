@@ -10,5 +10,6 @@
 #define YCKit_h
 
 #import "YCLable.h"
+#import "YCNavigationController.h"
 
 #endif /* YCKit_h */

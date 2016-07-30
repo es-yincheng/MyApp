@@ -10,22 +10,24 @@
 
 @interface BaisiCell()
 
-@property (weak, nonatomic) IBOutlet UIImageView *userIcon;
-@property (weak, nonatomic) IBOutlet UILabel *userName;
-@property (weak, nonatomic) IBOutlet UILabel *publishTime;
-@property (weak, nonatomic) IBOutlet UILabel *baisiText;
-@property (weak, nonatomic) IBOutlet UIImageView *baisiImage;
+@property (weak, nonatomic) IBOutlet UIImageView        *userIcon;
+@property (weak, nonatomic) IBOutlet UILabel            *userName;
+@property (weak, nonatomic) IBOutlet UILabel            *publishTime;
+@property (weak, nonatomic) IBOutlet UILabel            *baisiText;
+@property (weak, nonatomic) IBOutlet UIImageView        *baisiImage;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageHeight;
+@property (weak, nonatomic) IBOutlet UIView             *hotCommentView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *commentViewConstraint;
+@property (weak, nonatomic) IBOutlet UIImageView        *hotCommentImage;
 /**
  *  userName,CommentText
  */
-@property (weak, nonatomic) IBOutlet UILabel *commentInfo;
-@property (weak, nonatomic) IBOutlet UILabel *baisiTags;
-@property (weak, nonatomic) IBOutlet UIButton *baisiZanButton;
-@property (weak, nonatomic) IBOutlet UIButton *baisicaiButton;
-@property (weak, nonatomic) IBOutlet UIButton *baisiShareButton;
-@property (weak, nonatomic) IBOutlet UIButton *baisiCommentButton;
+@property (weak, nonatomic) IBOutlet UILabel            *commentInfo;
+@property (weak, nonatomic) IBOutlet UILabel            *baisiTags;
+@property (weak, nonatomic) IBOutlet UIButton           *baisiZanButton;
+@property (weak, nonatomic) IBOutlet UIButton           *baisicaiButton;
+@property (weak, nonatomic) IBOutlet UIButton           *baisiShareButton;
+@property (weak, nonatomic) IBOutlet UIButton           *baisiCommentButton;
 
 @end
 
@@ -52,13 +54,22 @@
     if (model.imageHeight < 5) {
         _imageHeight.constant = 0.f;
     } else {
+        _baisiImage.contentMode = UIViewContentModeScaleAspectFill;
+        _baisiImage.clipsToBounds = YES;
         _imageHeight.constant = (model.imageHeight * (ScreenWith-16)/model.imageWidth > 400) ? 300 : model.imageHeight * (ScreenWith-16)/model.imageWidth;
     }
     if (model.commentText.length < 3) {
         _commentViewConstraint.priority = UILayoutPriorityDefaultHigh + 100;
+        _commentViewConstraint.constant = 0.0f;
+        _commentInfo.hidden = YES;
+        _hotCommentImage.hidden = YES;
+        _hotCommentView.hidden = YES;
     } else {
         _commentViewConstraint.priority = UILayoutPriorityDefaultHigh - 100;
         _commentInfo.attributedText = model.commentText;
+        _commentInfo.hidden = NO;
+        _hotCommentImage.hidden = NO;
+        _hotCommentView.hidden = NO;
     }
     _baisiTags.text = model.baisiTags;
     [_baisiZanButton setTitle:model.zanCount forState:UIControlStateNormal];

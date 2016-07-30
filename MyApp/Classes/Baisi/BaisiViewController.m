@@ -8,7 +8,6 @@
 
 #import "BaisiViewController.h"
 #import "BaisiCell.h"
-#import "BaisiImageCell.h"
 #import "BaisiModel.h"
 #import "MJChiBaoZiHeader.h"
 #import "MJRefreshFooter.h"

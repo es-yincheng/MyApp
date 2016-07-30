@@ -27,4 +27,6 @@
 
 #import "UIImageView+WebCache.h"
 
+#import <ChameleonFramework/Chameleon.h>
+
 #endif /* Common_h */
